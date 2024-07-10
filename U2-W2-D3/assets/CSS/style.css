@@ -1,0 +1,118 @@
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #FEF7E2;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 30px 0;
+    align-items: center;
+}
+
+ul :nth-child(1) {
+    order: 1;
+    align-self: flex-end;
+}
+
+ul :nth-child(4) {
+    order: 2;
+}
+
+ul :nth-child(5) {
+    order: 3;
+}
+
+ul li button {
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: #FFDF7F;
+    border: none;
+    color: #742305;
+}
+
+#shop {
+    font-size: 25px;
+    padding: 25px;
+}
+
+h1 {
+    color: #742305;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: #FEF7E2;
+    width: 250px;
+    min-height: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+
+.LucaGay{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.contenuto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cards button {
+    background-color: #FFDF7F;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px 35px;
+    border-radius: 35px;
+    font-size: 12px;
+    border: none;
+}
+
+hr {
+    visibility: hidden;
+}
+
+h2 {
+    margin-left: 15px;
+    color: #742305;
+    font-size: 30px;
+}
+
+.news {
+    background-color: #FEF7E2;
+    margin: 15px 15px;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+h3 {
+    color: #742305;
+}
+
+.news p {
+    font-size: 12px
+}
+
+.news img {
+    width: 100%;
+}
